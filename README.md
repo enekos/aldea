@@ -38,7 +38,7 @@ Page it with `aldea | less -R` when the diff is long.
 
 ```sh
 pkg install rust git
-cargo install --path .      # from a clone; or: cargo install --git <repo-url>
+cargo install --git https://github.com/enekos/aldea
 ```
 
 Builds with zero crates, so the first compile on-device is quick.
