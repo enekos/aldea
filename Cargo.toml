@@ -1,0 +1,12 @@
+[package]
+name = "aldea"
+version = "0.1.0"
+edition = "2021"
+description = "Monochrome diff viewer for e-ink terminals — font weight instead of color"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+lto = true
+strip = true
