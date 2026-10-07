@@ -46,3 +46,7 @@ Builds with zero crates, so the first compile on-device is quick.
 ## Why not delta/diff-so-fancy?
 
 They are color-first; their monochrome fallbacks lose the add/del distinction or lean on dim text, which dithers into illegibility on e-ink. `aldea` treats a 1-bit display as the primary target: bold vs. strikethrough vs. reverse survive any monochrome panel and any font that Termux ships.
+
+## License
+
+MIT.
