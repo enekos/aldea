@@ -1,0 +1,19 @@
+name: aldea
+arch: ${ARCH}
+platform: linux
+version: ${VERSION}
+maintainer: Eneko Sarasola <113593779+enekos@users.noreply.github.com>
+description: "Monochrome diff viewer for e-ink terminals: font weight instead of color."
+homepage: https://github.com/enekos/aldea
+license: MIT
+suggests:
+  - git
+contents:
+  - src: dist/pkg/aldea
+    dst: /usr/bin/aldea
+    file_info:
+      mode: 0755
+  - src: LICENSE
+    dst: /usr/share/licenses/aldea/LICENSE
+  - src: README.md
+    dst: /usr/share/doc/aldea/README.md
