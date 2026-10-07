@@ -34,6 +34,18 @@ Options:
 
 Page it with `aldea | less -R` when the diff is long.
 
+## Install (Linux)
+
+```bash
+yay -S aldea                                     # Arch, from the AUR
+sudo apt install ./aldea_<version>_amd64.deb       # Debian, Ubuntu
+sudo dnf install ./aldea-<version>-1.x86_64.rpm    # Fedora, RHEL
+sudo apk add --allow-untrusted ./aldea_<version>_x86_64.apk   # Alpine
+nix run github:enekos/aldea                     # Nix
+```
+
+The `.deb`, `.rpm` and `.apk` files are on each [release](https://github.com/enekos/aldea/releases), for x86_64 and arm64.
+
 ## Install (Termux)
 
 ```sh
